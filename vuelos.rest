@@ -1,0 +1,38 @@
+###
+GET http://localhost:3000/api/pelis
+
+####
+POST http://localhost:3000/api/pelis
+Content-Type: application/json
+
+{
+    "Year": "1987",
+    "Title": "La pelicula"
+}
+
+###
+GET http://localhost:3000/api/pelis/peli
+Content-Type: application/json
+
+{
+    "Title": "La pelicula"
+    
+}
+
+
+###
+PUT http://localhost:3000/api/pelis/182
+Content-Type: application/json
+
+{
+    "Year": "1111",
+    "Title": "La pelicula 2"
+    
+}
+
+
+###
+DELETE  http://localhost:3000/api/pelis/181
+
+
+
